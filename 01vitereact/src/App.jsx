@@ -1,10 +1,11 @@
 
-
+import Test from "./Test"
 function App() {
  
 
   return (
-  <h1>My first react project | Abhinash</h1>
+  <Test/>
+  
   )
 }
 
