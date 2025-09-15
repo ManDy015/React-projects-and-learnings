@@ -77,8 +77,8 @@ export default function Header() {
                                 <NavLink
                                 to="/github"
                                     className={(isActive) =>    // yhere, we are writing the css style in a callback because callbacks give us an lethod of "isActive" which is useful to check where we are at that instatnt, and we can use it to define our parameters, e.g in navlink
-                                        ` ${
-                                        isActive ? "text-orange-700" :"text-grey-700"} `
+                                        `block py-2 pr-4 pl-3 duration-200 ${
+                                        isActive ? "text-orange-700" :"text-grey-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
                                     Github
