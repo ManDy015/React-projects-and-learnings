@@ -1,0 +1,2 @@
+// The purpose of the index file is to store all the importable and usable components at one place and just import the index in the main folder and use all of the functionalities without seperstely importing them one  by one.
+export {TodoContext, TodoProvider, useTodo} from "./ToDoContext"
